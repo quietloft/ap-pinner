@@ -48,7 +48,7 @@ done
 source "$CONFIG"
 
 : "${GATEWAY_HOST:?set GATEWAY_HOST}"
-: "${AP_NODES:?set AP_NODES, e.g. \"1=192.168.10.2 2=192.168.10.3\"}"
+: "${AP_NODES:?set AP_NODES, e.g. \"1=192.168.1.2 2=192.168.1.3\"}"
 SSH_KEY="${SSH_KEY:-$HOME/.ssh/id_ed25519}"
 SSH_KEY_AP="${SSH_KEY_AP:-$SSH_KEY}"
 GATEWAY_PORT="${GATEWAY_PORT:-22}"
